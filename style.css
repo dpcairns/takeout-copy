@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    border: solid 1px black;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+
+main {
+    display: grid;
+    grid-template-rows: 5% 15% 10% 60% 10%;
+}
+
+header {
+    display: flex;
+}
+
+header .box {
+    margin-left: 10px;
+    width: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div {
+    width: 100px;
+}
+
+.home-buttons {
+    display: flex;
+}
+
+.home-buttons .box {
+    margin-left: 10px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.small-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
